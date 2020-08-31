@@ -9,7 +9,7 @@ var user = mongoose.model("user", {
     },
     age: {
         type: Number,
-        required: true,
+        // required: true,
         minlength: 2
     },
     jub: {
